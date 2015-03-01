@@ -1,0 +1,62 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It doesn't just spit the answer out to you, but it hightlights changes
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It allows you to revert changes more quicklt
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    There are distinct break points in the changes to the code, not just
+	saves from every 5 minutes
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google docs are usually independant files, web development and other programming
+	languages will often pull from multiple files.  Javascript, CSS, and HTML
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Dunno yet
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It makes it easier to un-break the issues.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Sharing libraries with other developers.
+	
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	You can see how the direction of something changed over time, avoid taking
+	that incorrect direction in the future
+	
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+	Pros:  committing when "chunks" of code are complete, only commit when code can be compiled
+	
+	Cons:  you have to remember to do it, waiting too long can make the changes large
+	
+Why do you think some version control systems, like Git, allow saving multiple files
+in one commit, while others, like Google Docs, treat each file separately?
+
+	For code, multiple files will reference each other.  Changes to one may break the others
+	if they are not handles as a coordinated change.
+	
+	Google Docs deals with non-program files that typically do not rely on eachother.
+	
+How can you use the commands git log and git diff to view the history of files?
+
+	It makes it useful to see how things were replaced.  That can help identify what
+	may have caused the program to break.
+	

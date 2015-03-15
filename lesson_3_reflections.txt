@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  When other people would need to be aware of it.  IE if naming conventions are affected, etc.

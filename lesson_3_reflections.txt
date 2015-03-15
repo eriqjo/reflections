@@ -1,2 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
   When other people would need to be aware of it.  IE if naming conventions are affected, etc.
+
+Why might you want to always pull changes manually rather than having Git automatically stay
+up-to-date with your remote repository?
+  If you are working on a repository and it is automatically changed, it may break what you are working on
